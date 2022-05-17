@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn init
+
+PATH: 
+  /home/lucas/.pyenv/plugins/pyenv-virtualenv/shims:/home/lucas/.pyenv/shims:/home/lucas/.pyenv/bin:/home/lucas/.pyenv/plugins/pyenv-virtualenv/shims:/home/lucas/.pyenv/shims:/home/lucas/.pyenv/bin:/home/lucas/.pyenv/shims:/home/lucas/.nix-profile/bin:/home/lucas/.local/bin:/home/lucas/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.9.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:137143:13)
+      at Interface.emit (node:events:527:28)
+      at Interface.[_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1117:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:269:20)
+      at ReadStream.emit (node:events:527:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:527:28)
+      at addChunk (node:internal/streams/readable:324:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
