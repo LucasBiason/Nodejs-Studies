@@ -49,8 +49,24 @@ Sobre: Aplicação inicial para entender o Typescript junto do Node.js e React
     yarn start
 
 ## CRUD com Node.JS, Express, TypeORM e PostgreSQL
-Pasta: iniciando-com-node
+Pasta: crud-typeorm-nodejs
 
 Link: https://www.youtube.com/watch?v=9AO2hZJsHrs
+
+Sobre: Crud usando TypeORM, Node, Express e PostgresSQL
+Comandos:
+    npm init -y
+    yarn add typescript ts-node-dev express @types/express
+    yarn tsc --init
+    npm install typeorm reflect-metadata pg
+    npm run typeorm migration:create -n src/migrations/name
+    npm run typeorm migration:up
+
+
+
+## TypeScript parte 1: evoluindo seu JavaScript
+Pasta: typescript-evoluindo
+
+Link: https://cursos.alura.com.br/course/typescript-evoluindo-javascript
 
 Sobre:
