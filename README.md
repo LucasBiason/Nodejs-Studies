@@ -63,10 +63,39 @@ Comandos:
     npm run typeorm migration:up
 
 
+## Fundamentos do GraphQL na prática (Node.js + React) | Decode #019
+Pasta: fundamentos-graphql
 
-## TypeScript parte 1: evoluindo seu JavaScript
-Pasta: typescript-evoluindo
-
-Link: https://cursos.alura.com.br/course/typescript-evoluindo-javascript
+Link: https://www.youtube.com/watch?v=6SZOPKs9SUg
 
 Sobre:
+
+- Vantagens: (Quais problemas resolve?)
+
+* Overfetching: buscar informações demais, a mais do que eu preciso
+    http://localhost:3000/users
+    (DB: usuarios + endereços)
+* Underfetching: buscar informações a menos do que eu preciso, tendo que fazer requisições extras
+    http://localhost:3000/users
+    (DB: usuarios)
+    http://localhost:3000/address
+    (DB: endereços p/ cada usuario)
+
+Como resolve? O Front fala o que ele precisa numa única rota...
+    http://localhost:3000/graphql
+    ```gql
+        query {
+            users {
+                id
+                name
+                github
+                address {
+                    city
+                }
+            }
+        }
+    ```
+
+- Dificuldades:
+* Trabalhar com cache
+* Tratativa de Erros
