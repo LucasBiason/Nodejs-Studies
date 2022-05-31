@@ -83,18 +83,19 @@ Sobre:
 
 Como resolve? O Front fala o que ele precisa numa única rota...
     http://localhost:3000/graphql
-    ```gql
-        query {
-            users {
-                id
-                name
-                github
-                address {
-                    city
-                }
+
+```gql
+    query {
+        users {
+            id
+            name
+            github
+            address {
+                city
             }
         }
-    ```
+    }
+```
 
 - Dificuldades:
 * Trabalhar com cache
@@ -108,12 +109,14 @@ Link: https://www.youtube.com/watch?v=9AO2hZJsHrs
 
 Sobre: Crud usando TypeORM, Node, Express e PostgresSQL
 
-##
+
+## Setup para apps Node.js (TypeScript, ESLint, Jest, Babel) | Code/Drops #33
 Pasta: node-setup
 
-Link:
+Link: https://www.youtube.com/watch?v=rCeGfFk-uCk
 
 Sobre: Projeto base setup para aplicação node.js com typescript
+```
 >>> yarn add typescript@3.9.5
 >>> yarn tsc --init
 >>> yarn add express @types/express
@@ -154,3 +157,4 @@ The following questions will help Jest to create a suitable configuration for yo
 ✔ Automatically clear mock calls, instances, contexts and results before every test? … no
 
 >>> yarn add @types/jest -D
+```
