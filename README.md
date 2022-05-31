@@ -99,3 +99,58 @@ Como resolve? O Front fala o que ele precisa numa única rota...
 - Dificuldades:
 * Trabalhar com cache
 * Tratativa de Erros
+
+
+## CRUD com Node.JS, Express, TypeORM e PostgreSQL
+Pasta: crud-typeorm-nodejs
+
+Link: https://www.youtube.com/watch?v=9AO2hZJsHrs
+
+Sobre: Crud usando TypeORM, Node, Express e PostgresSQL
+
+##
+Pasta: node-setup
+
+Link:
+
+Sobre: Projeto base setup para aplicação node.js com typescript
+>>> yarn add typescript@3.9.5
+>>> yarn tsc --init
+>>> yarn add express @types/express
+>>> yarn add ts-node-dev
+>>> yarn add tsconfig-paths
+>>> yarn eslint --init
+
+yarn run v1.22.18
+You can also run this command directly using 'npm init @eslint/config'.
+Need to install the following packages:
+  @eslint/create-config
+Ok to proceed? (y) y
+✔ How would you like to use ESLint? · style
+✔ What type of modules does your project use? · none
+✔ Which framework does your project use? · none
+✔ Does your project use TypeScript? · No / Yes
+✔ Where does your code run? · browser
+✔ How would you like to define a style for your project? · guide
+✔ Which style guide do you want to follow? · google
+✔ What format do you want your config file to be in? · JSON
+Checking peerDependencies of eslint-config-google@latest
+The config that you've selected requires the following dependencies:
+
+@typescript-eslint/eslint-plugin@latest eslint-config-google@latest eslint@>=5.16.0 @typescript-eslint/parser@latest
+✔ Would you like to install them now? · No / Yes
+✔ Which package manager do you want to use? · yarn
+
+>>> yarn add jest -D
+>>> yarn jest --init
+
+The following questions will help Jest to create a suitable configuration for your project
+
+✔ Would you like to use Jest when running "test" script in "package.json"? … yes
+✔ Would you like to use Typescript for the configuration file? … yes
+✔ Choose the test environment that will be used for testing › node
+✔ Do you want Jest to add coverage reports? … yes
+✔ Which provider should be used to instrument code for coverage? › babel
+✔ Automatically clear mock calls, instances, contexts and results before every test? … no
+
+>>> yarn add @types/jest -D
