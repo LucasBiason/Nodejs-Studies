@@ -5,14 +5,14 @@ Mini Projetos de Cursos, Livros e artigos de Node.js.
 Aqui tenho projetos desde Node.js puro focado em padrões, tecnicas avançadas ou simples
 
 ## COMEÇANDO COM NODE.JS EM 2022
-Pasta: iniciando-com-node
+Pasta: nodejs-iniciando
 
 Link: https://youtu.be/fm4_EuCsQwg
 
 Sobre: Projeto inicial de cadastro simples com arquivo
 
 ## Node.js: Iniciando da teoria à prática | Masterclass #11
-Pasta: node-masterclass
+Pasta: nodejs-masterclass
 
 Link: https://www.youtube.com/watch?v=DiXbJL3iWVs
 
@@ -26,7 +26,7 @@ Link: https://cursos.alura.com.br/course/nodejs-api-rest-express-mongodb
 Sobre: O objetivo vai ser construir uma API para Livraria.
 
 ## Ambiente de desenvolvimento NodeJS com Docker e Docker Compose
-Pasta: docker-and-nodejs
+Pasta: nodejs-docker
 
 Link: https://www.youtube.com/watch?v=AVNADGzXrrQ
 
@@ -49,7 +49,7 @@ Sobre: Aplicação inicial para entender o Typescript junto do Node.js e React
     yarn start
 
 ## CRUD com Node.JS, Express, TypeORM e PostgreSQL
-Pasta: crud-typeorm-nodejs
+Pasta: nodejs-crud-typeorm
 
 Link: https://www.youtube.com/watch?v=9AO2hZJsHrs
 
@@ -64,7 +64,7 @@ Comandos:
 
 
 ## Fundamentos do GraphQL na prática (Node.js + React) | Decode #019
-Pasta: fundamentos-graphql
+Pasta: graphql-fundamentos
 
 Link: https://www.youtube.com/watch?v=6SZOPKs9SUg
 
@@ -103,7 +103,7 @@ Como resolve? O Front fala o que ele precisa numa única rota...
 
 
 ## CRUD com Node.JS, Express, TypeORM e PostgreSQL
-Pasta: crud-typeorm-nodejs
+Pasta: nodejs-crud-typeorm
 
 Link: https://www.youtube.com/watch?v=9AO2hZJsHrs
 
@@ -111,7 +111,7 @@ Sobre: Crud usando TypeORM, Node, Express e PostgresSQL
 
 
 ## Setup para apps Node.js (TypeScript, ESLint, Jest, Babel) | Code/Drops #33
-Pasta: node-setup
+Pasta: nodejs-setup
 
 Link: https://www.youtube.com/watch?v=rCeGfFk-uCk
 
@@ -158,3 +158,11 @@ The following questions will help Jest to create a suitable configuration for yo
 
 >>> yarn add @types/jest -D
 ```
+
+
+## React Hooks com TypeScript | Masterclass #04
+Pasta: react-hooks
+
+Link: https://www.youtube.com/watch?v=GOB-lawExXc
+
+Sobre: Crud usando TypeORM, Node, Express e PostgresSQL
