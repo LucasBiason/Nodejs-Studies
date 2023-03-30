@@ -4,6 +4,7 @@ Mini Projetos de Cursos, Livros e artigos de Node.js.
 
 Aqui tenho projetos desde Node.js puro focado em padrões, tecnicas avançadas ou simples
 
+
 ## COMEÇANDO COM NODE.JS EM 2022
 Pasta: nodejs-iniciando
 
@@ -161,8 +162,63 @@ The following questions will help Jest to create a suitable configuration for yo
 
 
 ## React Hooks com TypeScript | Masterclass #04
-Pasta: react-hooks
+Pasta: react-hooks-typescript
 
 Link: https://www.youtube.com/watch?v=GOB-lawExXc
 
-Sobre: Crud usando TypeORM, Node, Express e PostgresSQL
+Sobre: Explicação e exemplos dos hooks
+
+```
+>>> yarn create react-app hooks --template=typescript
+>>> cd hooks
+>>> yarn start
+```
+
+
+
+## GraphQL aplicado no Node.js | Diego Fernandes
+
+Pasta: nodejs-graphql-aplicado
+
+Link: https://www.youtube.com/watch?v=oD8GqurXZ-0
+
+Sobre: Explicações e Exemplos
+
+```
+
+POST /graphql
+
+Query:
+{
+    query users{
+        users({ per_page: 20, page: 2, filter { nome: { "starts_with": "Diego" } }}){
+            id
+            nome
+            groups {
+                id
+                title
+            }
+        }
+    }
+}
+
+>>> yarn add graphql-yoga
+
+query {
+    users {
+        id
+        name
+        email
+    }
+}
+query {
+    user(id: 1){
+        id
+        name
+        email
+    }
+}
+
+
+
+```
